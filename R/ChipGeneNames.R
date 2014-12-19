@@ -1,4 +1,21 @@
-## function to get rows of name matrix matching a vector of arbitrarily IDs
+#' Function to get rows of name matrix matching a vector of arbitrarily IDs
+#'
+#' A more detailed description of what the function is and how
+#' it works. It may be a paragraph that should not be separated
+#' by any spaces.
+#'
+#' @param inputParameter1 A description of the input parameter \code{inputParameter1}
+#' @param inputParameter2 A description of the input parameter \code{inputParameter2}
+#'
+#' @return output A description of the object the function outputs
+#'
+#' @keywords keywords
+#'
+#' @export
+#'
+#' @examples
+#' R code here showing how your function works
+
 ChipGeneNames <- function(v, N=hgu133plus2Names){
  N <- cbind(rownames(N), N)
  w <- numeric(length(v))        # vector of row numbers

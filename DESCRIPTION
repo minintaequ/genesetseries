@@ -1,9 +1,10 @@
 Package: genesetseries
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: Collection of statistical methods to analyse gene expression series on a
+    gene set level with conservation of the series-profile.
+Version: 0.1.0
 Date: 2014-12-11
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Andre Koenig
+Maintainer: Andre Koenig <akoenig@statistics.tu-dortmund.de>
+Description: TBA
+License: GPL 3.0

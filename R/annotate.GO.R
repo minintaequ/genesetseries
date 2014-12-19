@@ -1,5 +1,21 @@
-## annotate genes to GO groups of a predefined ontology
-#
+#' Annotate genes to GO groups of a predefined ontology
+#'
+#' A more detailed description of what the function is and how
+#' it works. It may be a paragraph that should not be separated
+#' by any spaces.
+#'
+#' @param inputParameter1 A description of the input parameter \code{inputParameter1}
+#' @param inputParameter2 A description of the input parameter \code{inputParameter2}
+#'
+#' @return output A description of the object the function outputs
+#'
+#' @keywords keywords
+#'
+#' @export
+#'
+#' @examples
+#' R code here showing how your function works
+
 annotate.GO <- function (feasibleGenes = NULL, ontology="BP", affyLib)
       {                                                                     # annFUN.db from topGO
         affyLib <- paste(sub(".db$", "", affyLib), ".db", sep = "")

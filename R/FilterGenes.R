@@ -1,6 +1,20 @@
-## Filter genes according to their EntrezGene IDs, using Affymetrix-suffix-information for clusters with the same EntrezGene ID and
-## the max-median-approach to choose the single probe set with the clearest signal in the study
-#
+#' A one sentence description of what your function does
+#'
+#' Filter genes according to their EntrezGene IDs, using Affymetrix-suffix-information for clusters with the same EntrezGene ID and
+#' the max-median-approach to choose the single probe set with the clearest signal in the study
+#'
+#' @param inputParameter1 A description of the input parameter \code{inputParameter1}
+#' @param inputParameter2 A description of the input parameter \code{inputParameter2}
+#'
+#' @return output A description of the object the function outputs
+#'
+#' @keywords keywords
+#'
+#' @export
+#'
+#' @examples
+#' R code here showing how your function works
+
 FilterGenes <- function(Names=hgu133plus2Names, clusters="EntrezGene.IDs", EM=PVAL.do$pvalues){
   NAMES <- Names[,clusters]
   FREQ  <- table(NAMES)
