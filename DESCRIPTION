@@ -6,5 +6,6 @@ Version: 0.1.0
 Date: 2014-12-11
 Author: Andre Koenig
 Maintainer: Andre Koenig <akoenig@statistics.tu-dortmund.de>
+Imports: AnnotationDbi
 Description: TBA
 License: GPL 3.0
